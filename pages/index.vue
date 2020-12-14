@@ -1,11 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
       <h1 class="title">learning-nuxt</h1>
-      <div class="links">
-        <nuxt-link to="/users">Users</nuxt-link>
-      </div>
     </div>
   </div>
 </template>
@@ -20,6 +16,11 @@ export default {}
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
+html,
+body {
+  background: lightgreen;
+}
+
 .container {
   margin: 0 auto;
   min-height: 100vh;
