@@ -20,6 +20,7 @@
 <script>
 export default {
   name: 'Users',
+  layout: 'users',
   data: () => ({
     userId: null,
   }),
